@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HerInsight | Health Assessment</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>HerInsight 🌸</h1>
+ <p>Women’s Health Risk Awareness & Care 💗</p>
+
+  <hr>
+
+  <!-- PCOS SECTION -->
+  <h2>PCOS Risk Assessment 🌺</h2>
+
+  <form id="pcosForm">
+    <label>
+      <input type="checkbox" id="pcos_q1">
+      Irregular menstrual periods
+    </label><br>
+
+    <label>
+      <input type="checkbox" id="pcos_q2">
+      Sudden or unexplained weight gain
+    </label><br>
+
+    <label>
+      <input type="checkbox" id="pcos_q3">
+      Acne or oily skin
+    </label><br>
+
+    <label>
+      <input type="checkbox" id="pcos_q4">
+      Excess facial or body hair growth
+    </label><br>
+
+    <label>
+      <input type="checkbox" id="pcos_q5">
+      Hair thinning or hair fall
+    </label><br>
+
+    <label>
+      <input type="checkbox" id="pcos_q6">
+      Frequent fatigue
+    </label><br>
+  </form>
+
+  <hr>
+
+  <!-- ANEMIA SECTION -->
+ <h2>Anemia Risk Assessment 🌷</h2>
+
+
+  <form id="anemiaForm">
+    <label>
+      <input type="checkbox" id="anemia_q1">
+      Constant tiredness or weakness
+    </label><br>
+
+    <label>
+      <input type="checkbox" id="anemia_q2">
+      Dizziness or headaches
+    </label><br>
+
+    <label>
+      <input type="checkbox" id="anemia_q3">
+      Pale skin or lips
+    </label><br>
+
+    <label>
+      <input type="checkbox" id="anemia_q4">
+      Shortness of breath
+    </label><br>
+
+    <label>
+      <input type="checkbox" id="anemia_q5">
+      Low intake of iron-rich foods
+    </label><br>
+  </form>
+
+  <br>
+
+  <button onclick="showResults()">View My Risk</button>
+
+  <hr>
+
+  <!-- RESULT SECTION -->
+  <h2>Your Assessment Result</h2>
+  <p id="pcosResult"></p>
+  <p id="anemiaResult"></p>
+
+  <p style="font-size:12px; color:gray;">
+    Disclaimer: This assessment is for awareness purposes only and does not
+    replace professional medical advice or diagnosis.
+  </p>
+
+  <script src="script.js"></script>
+</body>
+</html>
